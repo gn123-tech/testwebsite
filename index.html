@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Conception Radical provides drafting, engineering & programming services to manufacturing and construction businesses.">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>Conception Radical – Home</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-background">
+    <div class="container">
+
+      <h1 class="site-title">
+        <a href="index.html">
+          <img src="assets/logo.png" alt="Conception Radical logo" class="logo">
+        </a>
+      </h1>
+
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="client-portal.html">Client Portal</a>
+      </nav>
+
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <!-- 1. WHY CONCEPTION RADICAL SECTION -->
+    <section class="section">
+      <h2>Why choose us?</h2>
+      <p>
+        We believe engineering is the bridge between human imagination and physical reality.
+        Every 3D model, every line of code, and every manufacturing tolerance is like a flawless cog in a precision Swiss watch,
+        where countless microscopic details lock together in silent, perfect harmony to emmerge into something much greater than the sum of the parts. 
+        <span style="color: var(--accent);">Conception Radical</span> exist to strip away friction, tame complexity, and give form to ideas that matter.
+        We do this because there is a profound elegance in a machine that runs true, a process that flows without waste, and a design built to endure.
+      </p>
+
+      <ul>
+        <li><strong>Radical Simplicity</strong> — By ruthlessly eliminating complexity, we empower your team to turn bold ideas into momentum with absolute clarity.</li>
+        <li><strong>Grounded in First Principles</strong> — We don't simply follow engineering conventions; we derive every step of the process from first principles, ensuring your innovations stand on unshakeable ground.</li>
+        <li><strong>Reliable by Design</strong> — Our work emphasizes stability, repeatability, and long‑term maintainability for mission critical use.</li>
+        <li><strong>Designed for Manufacturing</strong> — Fabrication, tolerances, and real-world workflows are never an afterthought. We anticipate the heavy realities of the shop floor from the very first stroke.</li>
+        <li><strong>Synergy of Form and Function</strong> — We believe that when engineering is balanced to absolute perfection, function ceases to be separate from form. They alloy into a single, seamless synthesis where the design is the purpose, and mechanical grace becomes art.</li>
+      </ul>
+      
+      
+    </section>
+
+	<!-- 2. ETYMOLOGY SECTION -->
+    <section class="section">
+      <hr class="section-divider">
+      <h3>/răd′ĭ-kəl/</h3>
+      <p class="lead">
+        <em>adjective</em><br>
+        MATHEMATICS; of the root of a number or quantity
+      </p>
+      <hr class="section-divider">
+    </section>
+
+    <!-- 3. WHAT WE DO (SERVICES CARDS) SECTION -->
+    <section class="section">
+      <h2>What we do</h2>
+      <div class="card-list">
+
+        <article class="card">
+          <img src="assets/icon-modeling.png" alt="Parametric modeling icon" class="icon">
+          <h3>Product Configurator & Parametric Modeling</h3>
+          <p>Automate DXF and manufacturing documents with standardized forms.</p>
+        </article>
+
+        <article class="card">
+          <img src="assets/icon-api.png" alt="Macros icon" class="icon">
+          <h3>Custom Macros</h3>
+          <p>Streamline repetitive tasks with tailored SolidWorks & Excel scripts.</p>
+        </article>
+
+        <article class="card">
+          <img src="assets/icon-review.png" alt="Training icon" class="icon">
+          <h3>Training & Coaching</h3>
+          <p>Upskill your team in modeling, automation, and engineering tools.</p>
+        </article>
+
+        <article class="card">
+          <img src="assets/icon-design.png" alt="Mechanical design icon" class="icon">
+          <h3>Mechanical Design</h3>
+          <p>Custom machines, tooling, jigs, and new product development.</p>
+        </article>
+
+        <article class="card">
+          <img src="assets/icon-process.png" alt="Industrial design icon" class="icon">
+          <h3>Process Engineering</h3>
+          <p>Factory layouts, assembly line optimization, and SOPs.</p>
+        </article>
+
+        <article class="card">
+          <img src="assets/icon-cnc.png" alt="CNC Programming icon" class="icon">
+          <h3>CNC Programming</h3>
+          <p>Expert G-Code generation via MasterCam, Metalix, and SolidWorks CAM.</p>
+        </article>
+
+      </div>
+	  <br><br>
+	  <p class="meta">Learn more about our approach on the <a href="about.html">About page</a>.</p>
+	  
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> <span style="color: var(--accent);">Conception Radical</span>. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Engineering and design projects completed by Conception Radical.">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <title>Portfolio – Conception Radical</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <h1 class="site-title">
+  <a href="index.html">
+    <img src="assets/logo.png" alt="Conception Radical logo" class="logo">
+  </a>
+</h1>
+
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="blog.html">Blog</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="client-portal.html">Client Portal</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <h1>Portfolio</h1>
+
+
+    <section class="section card-list">
+
+      <!-- MAP TILE (FIRST TILE) -->
+      <article class="card">
+        <a href="assets/portfolio-map-thumb.jpg">
+          <img src="assets/portfolio-map-thumb.jpg" alt="Map of completed projects" class="thumb">
+        </a>
+        <h3>Map of Completed Projects</h3>
+        <p class="meta">Interactive map</p>
+        <p>
+          Explore an interactive map showing the locations of completed engineering and design projects.
+        </p>
+      </article>
+
+      <!-- PROJECT TILE TEMPLATE (COPY/PASTE TO ADD MORE) -->
+      <!--
+      <article class="card">
+        <a href="project-name.html">
+          <img src="assets/project-image.jpg" alt="Project thumbnail" class="thumb">
+        </a>
+        <h3>Project Title</h3>
+        <p class="meta">Category · Duration</p>
+        <p>
+          Short description of the project. Keep it brief and high‑level.
+        </p>
+      </article>
+      -->
+
+      <!-- SAMPLE PROJECT 1 -->
+      <article class="card">
+        <a href="curtain-wall.html">
+          <img src="assets/curtain-wall.png" alt="Curtai Wall" class="thumb">
+        </a>
+        <h3>Curtain Wall</h3>
+        <p class="meta"></p>
+        <p>
+          Various Curtain Wall Window Wall Skylights and structural glass projects.
+        </p>
+      </article>
+
+      <!-- SAMPLE PROJECT 2 -->
+      <article class="card">
+        <a href="metal-cladding.html">
+          <img src="assets/metal-cladding.png" alt="Metal Cladding" class="thumb">
+        </a>
+        <h3>Metal Cladding</h3>
+        <p class="meta"></p>
+        <p>
+          Various aluminum, brass, zinc and steel cladding projects.
+        </p>
+      </article>
+
+      <!-- SAMPLE PROJECT 3 -->
+      <article class="card">
+        <a href="steel-structures.html">
+          <img src="assets/steel-structures.png" alt="Steel Structures" class="thumb">
+        </a>
+        <h3>Steel Structures</h3>
+        <p class="meta"></p>
+        <p>
+          Steel Structures, miscelanous metals, staircases.
+        </p>
+      </article>
+	  
+	        <!-- SAMPLE PROJECT 4 -->
+      <article class="card">
+        <a href="tools-machines.html">
+          <img src="assets/tools-machines.png" alt="Tools & Machines" class="thumb">
+        </a>
+        <h3>Tools & Machines</h3>
+        <p class="meta"></p>
+        <p>
+          Machines, jigs, tooling.
+        </p>
+      </article>
+	  
+	  <!-- SAMPLE PROJECT 5 -->
+      <article class="card">
+        <a href="product-design.html">
+          <img src="assets/product-design.png" alt="Product Design" class="thumb">
+        </a>
+        <h3>Product Design</h3>
+        <p class="meta"></p>
+        <p>
+          Product design.
+        </p>
+      </article>
+
+    </section>
+	
+	<!-- 2. ETYMOLOGY SECTION -->
+    <section class="section">
+      <hr class="section-divider">
+	<h3>/răd′ĭ-kəl/</h3>
+    <p class="lead">
+      <em>adjective</em><br>
+      INFORMAL – NORTH AMERICAN; very good; excellent!
+    </p>
+	<hr class="section-divider">
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> <span style="color: var(--accent);">Conception Radical</span>. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

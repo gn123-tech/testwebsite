@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Conception Radical provides drafting, engineering & programming services to manufacturing and construction businesses.">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>Blog – Conception Radical</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-background">
+    <div class="container">
+
+      <h1 class="site-title">
+        <a href="index.html">
+          <img src="assets/logo.png" alt="Conception Radical logo" class="logo">
+        </a>
+      </h1>
+
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="client-portal.html">Client Portal</a>
+      </nav>
+
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <h1>Blog</h1>
+    <p class="lead">News, Notes, Tips, Ressources and more</p>
+
+    <section class="section card-list">
+
+      <!-- NEWEST BLOG POSTS GO HERE (Top of the list) -->
+      <article class="card">
+        <img src="blog/new-logo-and-website.png" alt="New logo and new website" class="thumb" style="mix-blend-mode: screen;">
+        <h3><a href="blog/new-logo-and-website.html">New logo and new website</a></h3>
+        <p class="meta">2023-10-25 · News</p>
+        <p>
+          Modernizing our company image, moving away from political associations, and launching our brand-new website.
+        </p>
+      </article>
+
+      <!-- FUTURE BLOG ENTRIES: Add new <article class="card"> blocks *above* this comment so they automatically show up first -->
+
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> <span style="color: var(--accent);">Conception Radical</span>. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact – Northline Modeling</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <h1 class="site-title"><a href="index.html">Northline Modeling</a></h1>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="blog.html">Blog</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="client-portal.html">Client Portal</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <h1>Contact</h1>
+    <p class="lead">A short message with context is enough to begin a conversation.</p>
+
+    <img src="assets/contact-icon.png" alt="Contact icon" class="icon-large">
+
+    <form method="post" action="#">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+
+      <div>
+        <label for="message">Project or question</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <p class="meta">
+      You can also email directly at  
+      <a href="mailto:contact@northlinemodeling.com">contact@northlinemodeling.com</a>.
+    </p>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Northline Modeling. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
